@@ -26,5 +26,9 @@ namespace AzureDeploymentDemo.Controllers
 
             return View();
         }
+        public ActionResult Deploy()
+        {
+            return View();
+        }
     }
 }
